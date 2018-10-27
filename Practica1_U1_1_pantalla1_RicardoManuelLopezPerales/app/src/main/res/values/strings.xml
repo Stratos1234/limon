@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Practica1_U1_1_pantalla1_RicardoManuelLopezPerales</string>
+    <string-array name="estado">
+        <item>Soltero</item>
+        <item>Casado</item>
+    </string-array>
+    <string-array name="cargo">
+        <item>Ventas</item>
+        <item>Informatica</item>
+        <item>Jardinero</item>
+    </string-array>
+</resources>

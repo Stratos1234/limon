@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/temporal"
+    tools:context=".Principal">
+
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#212121"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moviles"
+            android:textSize="30dp"
+            android:layout_margin="10dp"
+            android:textColor="#FFFFFF"
+            android:padding="11dp"
+            android:layout_gravity="left"
+            />
+        <ImageView
+            android:src="@drawable/images"
+            android:layout_width="430dp"
+            android:layout_height="60dp"
+            android:layout_margin="3dp"
+
+
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="250dp"
+        android:text="4/10"
+        android:textSize="60dp"
+        android:layout_gravity="center"
+        android:textStyle="italic"
+        android:textColor="#FFFFFF"
+
+
+        android:layout_margin="90dp"/>
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="250dp"
+        android:layout_gravity="bottom"
+
+        android:text="Personas desean haber sido mejor en los deportes "
+        android:textColor="#FFFFFF"
+        android:textSize="24dp"
+        android:layout_margin="90dp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="490dp"
+        android:src="@drawable/captura"
+        android:layout_margin="10dp"
+        android:layout_gravity="left"
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:text="Saltar"
+        android:textSize="30dp"
+        android:layout_margin="5dp"
+        />
+
+</FrameLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
